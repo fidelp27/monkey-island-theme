@@ -1,0 +1,52 @@
+{
+  "name": "monkey-island-theme",
+  "displayName": "Monkey Island Theme",
+  "description": "A VS Code theme collection inspired by the classic LucasArts adventure game Monkey Island. Features three dark mode variants: Melee Island Night, LeChuck's Ghost, and Stan's Salesman.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monkey island",
+    "lucasarts",
+    "guybrush",
+    "lechuck",
+    "stan",
+    "pirate",
+    "retro",
+    "dark theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#050510",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monkey Island: Melee Island Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/melee-island-night.json"
+      },
+      {
+        "label": "Monkey Island: LeChuck's Ghost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lechuck-ghost.json"
+      },
+      {
+        "label": "Monkey Island: Stan's Salesman",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stan-salesman.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/monkey-island-theme"
+  },
+  "license": "MIT"
+}
