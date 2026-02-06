@@ -1,8 +1,8 @@
-# 🏴‍☠️ Monkey Island Theme for VS Code
+# 🏴‍☠️ Monkey Island Theme - Revenge's LeChuck Edition
 
 A collection of dark themes inspired by the legendary LucasArts adventure game **The Secret of Monkey Island**. Relive the Caribbean nights, ghostly encounters, and colorful salesmen while coding!
 
-![Monkey Island Banner](https://raw.githubusercontent.com/yourusername/monkey-island-theme/main/images/banner.png)
+![Preview](preview.jpg)
 
 ## 🎨 Theme Variants
 
@@ -11,6 +11,8 @@ A collection of dark themes inspired by the legendary LucasArts adventure game *
 _"Deep in the Caribbean, the night is full of mystery..."_
 
 Inspired by the iconic night scenes of Melee Island with its dark blue skies and flickering torchlight.
+
+![Melee Island Night](melee_island.png)
 
 | Element          | Color     | Description                    |
 | ---------------- | --------- | ------------------------------ |
@@ -29,6 +31,8 @@ _"You dare challenge the Ghost Pirate LeChuck?"_
 
 A spectral green theme inspired by the undead pirate captain himself. Ghost greens and eerie reds create a haunting coding atmosphere.
 
+![LeChuck's Ghost](lechuck.png)
+
 | Element       | Color     | Description         |
 | ------------- | --------- | ------------------- |
 | Background    | `#050A05` | Deep green-black    |
@@ -46,6 +50,8 @@ A spectral green theme inspired by the undead pirate captain himself. Ghost gree
 _"Have I got a deal for you!"_
 
 Multicolor vintage theme inspired by Stan's legendary plaid jacket. Bold, vibrant, and impossible to ignore - just like the man himself!
+
+![Stan's Salesman](stan_salesman.png)
 
 | Element    | Color       | Description          |
 | ---------- | ----------- | -------------------- |
@@ -78,22 +84,6 @@ Multicolor vintage theme inspired by Stan's legendary plaid jacket. Bold, vibran
     - **Linux**: `~/.vscode/extensions/`
 3. Restart VS Code
 4. Select the theme from `File > Preferences > Color Theme`
-
----
-
-## 🖼️ Screenshots
-
-### Melee Island Night
-
-_Coming soon_
-
-### LeChuck's Ghost
-
-_Coming soon_
-
-### Stan's Salesman
-
-_Coming soon_
 
 ---
 
