@@ -2,7 +2,7 @@
 
 A collection of dark themes inspired by the legendary LucasArts adventure game **The Secret of Monkey Island**. Relive the Caribbean nights, ghostly encounters, and colorful salesmen while coding!
 
-![Preview](preview.jpg)
+![Preview](https://github.com/fidelp27/monkey-island-theme/blob/master/preview.jpg?raw=true)
 
 ## 🎨 Theme Variants
 
@@ -12,7 +12,7 @@ _"Deep in the Caribbean, the night is full of mystery..."_
 
 Inspired by the iconic night scenes of Melee Island with its dark blue skies and flickering torchlight.
 
-![Melee Island Night](melee_island.png)
+![Melee Island Night](https://github.com/fidelp27/monkey-island-theme/blob/master/melee_island.png?raw=true)
 
 | Element          | Color     | Description                    |
 | ---------------- | --------- | ------------------------------ |
@@ -31,7 +31,7 @@ _"You dare challenge the Ghost Pirate LeChuck?"_
 
 A spectral green theme inspired by the undead pirate captain himself. Ghost greens and eerie reds create a haunting coding atmosphere.
 
-![LeChuck's Ghost](lechuck.png)
+![LeChuck's Ghost](https://github.com/fidelp27/monkey-island-theme/blob/master/lechuck.png?raw=true)
 
 | Element       | Color     | Description         |
 | ------------- | --------- | ------------------- |
@@ -51,7 +51,7 @@ _"Have I got a deal for you!"_
 
 Multicolor vintage theme inspired by Stan's legendary plaid jacket. Bold, vibrant, and impossible to ignore - just like the man himself!
 
-![Stan's Salesman](stan_salesman.png)
+![Stan's Salesman](https://github.com/fidelp27/monkey-island-theme/blob/master/stan_salesman.png?raw=true)
 
 | Element    | Color       | Description          |
 | ---------- | ----------- | -------------------- |
