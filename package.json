@@ -1,8 +1,8 @@
 {
   "name": "monkey-island-theme-revenge-lechuck-edition",
   "displayName": "Monkey Island Theme - Revenge's LeChuck Edition",
-  "description": "A VS Code theme collection inspired by the classic LucasArts adventure game Monkey Island. Features three dark mode variants: Melee Island Night, LeChuck's Ghost, and Stan's Salesman.",
-  "version": "1.1.0",
+  "description": "A VS Code theme collection inspired by the classic LucasArts adventure game Monkey Island. Features four dark mode variants: Melee Island Night, LeChuck's Ghost, Stan's Salesman, and Grog Bloom.",
+  "version": "1.3.0",
   "icon": "preview.jpg",
   "publisher": "fidelp27",
   "engines": {
@@ -19,7 +19,9 @@
     "stan",
     "pirate",
     "retro",
-    "dark theme"
+    "dark theme",
+    "grog",
+    "neon glow"
   ],
   "galleryBanner": {
     "color": "#050510",
@@ -41,6 +43,11 @@
         "label": "Monkey Island: Stan's Salesman",
         "uiTheme": "vs-dark",
         "path": "./themes/stan-salesman.json"
+      },
+      {
+        "label": "Monkey Island: Grog Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grog-bloom.json"
       }
     ]
   },

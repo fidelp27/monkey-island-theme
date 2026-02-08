@@ -1,6 +1,6 @@
 # 🏴‍☠️ Monkey Island Theme - Revenge's LeChuck Edition
 
-A collection of dark themes inspired by the legendary LucasArts adventure game **The Secret of Monkey Island**. Relive the Caribbean nights, ghostly encounters, and colorful salesmen while coding!
+A collection of dark themes inspired by the legendary LucasArts adventure game **The Secret of Monkey Island**. Relive the Caribbean nights, ghostly encounters, colorful salesmen, and radioactive grog while coding!
 
 ![Preview](https://github.com/fidelp27/monkey-island-theme/blob/master/preview.jpg?raw=true)
 
@@ -62,6 +62,57 @@ Multicolor vintage theme inspired by Stan's legendary plaid jacket. Bold, vibran
 | Functions  | `#FFA500`   | Ochre orange         |
 | Variables  | `#FFFFFF`   | White                |
 | Operators  | `#00FF00`   | Neon green           |
+
+---
+
+### 4. Grog Bloom ☢️
+
+_"That's the second-biggest radioactive drink I've ever seen!"_
+
+A corrosive green theme inspired by the legendary Grog - the drink so potent it dissolves mugs! Features radioactive neon greens with optional real glow effects.
+
+| Element          | Color     | Description          |
+| ---------------- | --------- | -------------------- |
+| Background       | `#0A0F0A` | Deep toxic black     |
+| Strings          | `#39FF14` | Radioactive neon     |
+| Keywords         | `#7FFF00` | Chartreuse glow      |
+| Functions        | `#00FFCC` | Bubbling turquoise   |
+| Types/Classes    | `#ADFF2F` | Yellow-green acid    |
+| Numbers/Booleans | `#FF6347` | Hot grog temperature |
+| Constants        | `#FFD700` | Golden ingredients   |
+| Operators        | `#00CED1` | Dark cyan dissolve   |
+
+#### ☢️ How to enable the "Radioactive Glow"
+
+To get the full Grog experience with **real neon glow effects**, install the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension and add this CSS:
+
+```css
+/* Grog Bloom - Radioactive Glow Effect */
+.mtk4,
+.mtk5 {
+	/* Strings */
+	text-shadow:
+		0 0 2px #000,
+		0 0 8px #39ff14,
+		0 0 12px #39ff14;
+}
+.mtk6 {
+	/* Keywords */
+	text-shadow:
+		0 0 2px #000,
+		0 0 6px #7fff00,
+		0 0 10px #7fff00;
+}
+.mtk1 {
+	/* Functions */
+	text-shadow:
+		0 0 2px #000,
+		0 0 6px #00ffcc,
+		0 0 10px #00ffcc;
+}
+```
+
+> ⚠️ **Note:** This requires modifying VS Code's internal files. Follow the extension's instructions carefully.
 
 ---
 
