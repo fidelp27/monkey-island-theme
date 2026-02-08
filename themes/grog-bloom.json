@@ -3,8 +3,8 @@
     "name": "Monkey Island: Grog Bloom",
     "type": "dark",
     "colors": {
-        "editor.background": "#0A0F0A",
-        "editor.foreground": "#C8E6C8",
+        "editor.background": "#040804",
+        "editor.foreground": "#E0FFE0",
         "activityBar.background": "#0A0F0A",
         "activityBar.foreground": "#39FF14",
         "activityBar.border": "#1a2a1a",
@@ -140,7 +140,8 @@
                 "keyword.operator.typeof"
             ],
             "settings": {
-                "foreground": "#7FFF00"
+                "foreground": "#7FFF00",
+                "fontStyle": "bold"
             }
         },
         {
@@ -152,7 +153,8 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#39FF14"
+                "foreground": "#39FF14",
+                "fontStyle": "bold"
             }
         },
         {
@@ -164,7 +166,8 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#00FFCC"
+                "foreground": "#00FFCC",
+                "fontStyle": "bold"
             }
         },
         {
@@ -200,7 +203,8 @@
                 "entity.other.inherited-class"
             ],
             "settings": {
-                "foreground": "#ADFF2F"
+                "foreground": "#ADFF2F",
+                "fontStyle": "bold italic"
             }
         },
         {
@@ -233,7 +237,8 @@
                 "variable.other.constant"
             ],
             "settings": {
-                "foreground": "#FFD700"
+                "foreground": "#FFD700",
+                "fontStyle": "bold"
             }
         },
         {

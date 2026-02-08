@@ -1,0 +1,99 @@
+/* 
+ * Monkey Island: Grog Bloom - Radioactive Glow Effect
+ * 
+ * INSTRUCTIONS:
+ * 1. Install "Custom CSS and JS Loader" extension
+ *    https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+ * 
+ * 2. Add this to your VS Code settings.json:
+ *    "vscode_custom_css.imports": [
+ *      "file:///C:/Users/YOUR_USER/.vscode/extensions/grog-glow.css"
+ *    ]
+ *    (Replace YOUR_USER with your Windows username)
+ * 
+ * 3. Press Ctrl+Shift+P → "Enable Custom CSS and JS"
+ * 4. Restart VS Code (it will say "corrupted" - this is normal, click "Don't show again")
+ */
+
+/* ===== GROG BLOOM RADIOACTIVE GLOW ===== */
+
+/* Strings - Bright radioactive glow */
+.mtk4,
+.mtk5,
+.monaco-editor .token.string {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #39FF14,
+    0 0 10px #39FF14,
+    0 0 20px #39FF14,
+    0 0 30px #39FF1480;
+}
+
+/* Keywords - Chartreuse glow */
+.mtk6,
+.mtk8,
+.monaco-editor .token.keyword {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #7FFF00,
+    0 0 10px #7FFF00,
+    0 0 15px #7FFF0080;
+}
+
+/* Functions - Turquoise bubbling glow */
+.mtk1,
+.mtk12,
+.monaco-editor .token.function {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #00FFCC,
+    0 0 10px #00FFCC,
+    0 0 15px #00FFCC80;
+}
+
+/* Types/Classes - Yellow-green acid */
+.mtk10,
+.monaco-editor .token.type {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #ADFF2F,
+    0 0 10px #ADFF2F80;
+}
+
+/* Numbers - Hot grog temperature */
+.mtk7,
+.monaco-editor .token.number {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #FF6347,
+    0 0 10px #FF634780;
+}
+
+/* Constants - Golden ingredients */
+.mtk21,
+.monaco-editor .token.constant {
+  text-shadow: 
+    0 0 2px #000,
+    0 0 5px #FFD700,
+    0 0 10px #FFD70080;
+}
+
+/* Cursor glow */
+.monaco-editor .cursor {
+  box-shadow: 
+    0 0 5px #39FF14,
+    0 0 10px #39FF14,
+    0 0 15px #39FF14;
+}
+
+/* Selection glow */
+.monaco-editor .selected-text {
+  box-shadow: 0 0 10px #39FF1440;
+}
+
+/* Bracket matching glow */
+.monaco-editor .bracket-match {
+  box-shadow: 
+    0 0 5px #39FF14,
+    0 0 10px #39FF14;
+}

@@ -84,35 +84,38 @@ A corrosive green theme inspired by the legendary Grog - the drink so potent it 
 
 #### ☢️ How to enable the "Radioactive Glow"
 
-To get the full Grog experience with **real neon glow effects**, install the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension and add this CSS:
+To get the full Grog experience with **real neon glow effects** (like SynthWave '84), follow these steps:
 
-```css
-/* Grog Bloom - Radioactive Glow Effect */
-.mtk4,
-.mtk5 {
-	/* Strings */
-	text-shadow:
-		0 0 2px #000,
-		0 0 8px #39ff14,
-		0 0 12px #39ff14;
-}
-.mtk6 {
-	/* Keywords */
-	text-shadow:
-		0 0 2px #000,
-		0 0 6px #7fff00,
-		0 0 10px #7fff00;
-}
-.mtk1 {
-	/* Functions */
-	text-shadow:
-		0 0 2px #000,
-		0 0 6px #00ffcc,
-		0 0 10px #00ffcc;
-}
+**Step 1:** Install the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension
+
+**Step 2:** Open your VS Code settings.json:
+
+- Press `Ctrl+Shift+P` → Type "Preferences: Open User Settings (JSON)"
+
+**Step 3:** Add this configuration to your settings.json:
+
+```json
+"vscode_custom_css.imports": [
+  "file:///C:/PATH/TO/grog-glow.css"
+]
 ```
 
-> ⚠️ **Note:** This requires modifying VS Code's internal files. Follow the extension's instructions carefully.
+> Replace `PATH/TO/` with the actual path where you saved the `grog-glow.css` file
+
+**Step 4:** Download the `grog-glow.css` file from this repository and save it to a permanent location
+
+**Step 5:** Enable the custom CSS:
+
+- Press `Ctrl+Shift+P` → Type "Enable Custom CSS and JS"
+- Click "Restart" when prompted
+
+**Step 6:** VS Code will show a "corrupted installation" warning - **this is normal!**
+
+- Click "Don't Show Again" - this happens because VS Code detects modified files
+
+**To disable the glow:** Press `Ctrl+Shift+P` → "Disable Custom CSS and JS" → Restart
+
+> ⚠️ **Note:** You may need to re-enable custom CSS after VS Code updates.
 
 ---
 
